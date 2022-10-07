@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "jumpprooffarmland",
+  "version": "${version}",
+  "name": "JumpProofFarmland",
+  "description": "Prevents farmland to convert back to dirt when jumping on it",
+  "authors": [
+    "BisUmTo"
+  ],
+  "contact": {
+    "website": "https://github.com/BisUmTo/JumpProofFarmland",
+    "repo": "https://github.com/BisUmTo/JumpProofFarmland"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/jumpprooffarmland/icon.png",
+  "entrypoints": {
+    "main": [
+      "it.bisumto.jumpprooffarmland.JumpProofFarmland"
+    ]
+  },
+  "mixins": [
+    "jumpprooffarmland.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": "1.19.2"
+  }
+}
