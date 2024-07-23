@@ -14,6 +14,6 @@ public class FarmlandMixin {
             target = "Lnet/minecraft/util/math/random/Random;nextFloat()F")
     )
     private float nextFloat(Random random){
-        return random.nextFloat() + 2f;
+        return 999f;
     }
 }
